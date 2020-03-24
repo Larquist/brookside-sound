@@ -1,0 +1,10 @@
+@media (min-width: 1135) {
+  .Index .landing {
+    display: none;
+  }
+  .Index .landing .brand {
+    width: 50vw;
+    color: red;
+  }
+}
+/*# sourceMappingURL=index-responsive.css.map */

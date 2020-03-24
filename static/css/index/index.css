@@ -1,0 +1,74 @@
+.Index {
+  padding-top: 0 !important;
+}
+
+.Index .landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.815)), to(rgba(0, 0, 0, 0))), url("../../img/sound-booth.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0)), url("../../img/sound-booth.jpg");
+  background-size: cover;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  padding: 0 10vw;
+}
+
+.Index .landing .brand {
+  margin-bottom: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  width: 30vw;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 0.8em;
+}
+
+.Index .landing .landing-blurb {
+  width: 30vw;
+}
+
+.Index .landing .landing-buttons {
+  margin-top: 20px;
+  width: 30vw;
+  text-align: center;
+}
+
+.Index .landing .landing-buttons button {
+  width: 125px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 5px solid white;
+  border-radius: 50px;
+  background: transparent;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.Index .landing .landing-buttons button:hover {
+  background-color: white;
+}
+
+.Index .landing .landing-buttons button:hover a {
+  color: black;
+}
+
+.Index .landing .landing-buttons button a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */

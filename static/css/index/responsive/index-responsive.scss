@@ -1,0 +1,12 @@
+$small-desktop: 1135;
+@media (min-width: $small-desktop){
+    .Index{
+        .landing{
+            display: none;
+            .brand{
+                width: 50vw;
+                color: red;
+            }
+        }
+    }
+}

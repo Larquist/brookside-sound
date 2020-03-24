@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,MAAM,EAAE,SAAS,EAAE,IAAI;EACnB,AACI,MADE,CACF,QAAQ,CAAA;IACJ,OAAO,EAAE,IAAI;GAKhB;EAPL,AAGQ,MAHF,CACF,QAAQ,CAEJ,MAAM,CAAA;IACF,KAAK,EAAE,IAAI;IACX,KAAK,EAAE,GAAG;GACb",
+    "sources": [
+        "index-responsive.scss"
+    ],
+    "names": [],
+    "file": "index-responsive.css"
+}
