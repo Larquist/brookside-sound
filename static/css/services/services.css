@@ -1,0 +1,58 @@
+.Services {
+  background: url("../../img/concrete-bg.jpg");
+  background-size: cover;
+}
+
+.Services .content-container {
+  width: 50vw;
+  padding-top: 15px;
+  margin: 0 25vw;
+  text-align: center;
+}
+
+.Services .content-container .services-container {
+  padding-top: 15px;
+}
+
+.Services .content-container .services-container .service {
+  width: 30%;
+  margin: 0 .5%;
+  padding: 10px;
+  height: 250px;
+  display: inline-block;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  color: white;
+  background-color: #272727;
+}
+
+.Services .content-container .services-container .service:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Services .content-container .services-container .service p {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.Services .content-container .services-container .service ul {
+  padding: 0 20px;
+  font-size: 14px;
+  list-style-position: inside;
+  text-align: left;
+}
+
+.Services .content-container .pricing {
+  display: inline-block;
+  padding: auto;
+  height: 3em;
+  width: 50%;
+  background-color: #272727;
+  color: white;
+  margin: 20px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=services.css.map */
